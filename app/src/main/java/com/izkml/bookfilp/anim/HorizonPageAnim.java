@@ -2,6 +2,7 @@ package com.izkml.bookfilp.anim;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewConfiguration;
@@ -57,6 +58,9 @@ public abstract class HorizonPageAnim extends PageAnimation{
 
     @Override
     public boolean onTouchEvent(MotionEvent event) {
+
+        Log.i("khw","------onTouchEvent---------  "+ event.getAction());
+
         //获取点击位置
         int x = (int)event.getX();
         int y = (int)event.getY();

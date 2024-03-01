@@ -6,8 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.izkml.bookfilp.view.BookFlipView
-        android:id="@+id/bookFlip"
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/vp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_width="match_parent"

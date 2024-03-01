@@ -10,6 +10,8 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.izkml.bookfilp.anim.SimulationPageAnim;
 import com.izkml.bookfilp.databinding.FragmentMyBinding;
 
 /**
@@ -20,7 +22,6 @@ import com.izkml.bookfilp.databinding.FragmentMyBinding;
 public class MyFragment extends Fragment {
 
     private FragmentMyBinding binding;
-
 
     private static final String ARG_PARAM1 = "position";
 
